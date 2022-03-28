@@ -33,7 +33,4 @@ variable "network_tags" {
   type        = list(any)
 }
 
-variable "labels" {
-  description = "Please provide LABELS to bulid a VPC"
-  type        = map(any)
-}
+
