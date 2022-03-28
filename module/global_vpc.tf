@@ -9,14 +9,9 @@ module "vpc" {
   network_tags  = ["webserver"]
 }
 
-output "vpc_name" {
-  value = module.vpc.vpc_name
+output "vpc" {
+  value = module.vpc.*
+  sensitive = true
 }
 
-output "firewall_name" {
-  value = module.vpc.firewall_name
-}
 
-output "network_name" {
-  value = module.vpc.network_name
-}
