@@ -1,11 +1,3 @@
-output "project_name" {
-  value = google_project.team3-gcp-project.name
-}
-
-output "project_id" {
-  value = google_project.team3-gcp-project.project_id
-}
-
 output "vpc_name" {
   value = google_compute_network.vpcglobal.name
 }
