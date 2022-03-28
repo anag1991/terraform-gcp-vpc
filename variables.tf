@@ -1,3 +1,13 @@
+variable "billing_acct" {
+  description = "Please provide billing account name"
+  type        = string
+}
+
+variable "project_name" {
+  description = "Please provide project name"
+  type        = string
+}
+
 variable "vpc_name" {
   description = "Please provide VPC name to bulid a VPC"
   type        = string
