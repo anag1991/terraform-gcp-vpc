@@ -4,7 +4,7 @@ output "project_name" {
 
 output "project_id" {
   value = google_project.gcp-project.project_id
-  sensitive = true
+#   sensitive = false
 }
 
 output "vpc_name" {
