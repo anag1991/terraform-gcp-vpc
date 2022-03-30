@@ -11,10 +11,11 @@ resource "random_password" "password" {
   upper   = false
 }
 
-resource "google_project" "gcp-project" {
+resource "google_project" "team3-gcp-project" {
   name            = var.project_name
   project_id      = random_password.password.result
   billing_account = data.google_billing_account.acct.id
+  labels          = var.labels
 }
 
 # To enable the GCP services
@@ -24,7 +25,7 @@ resource "null_resource" "set-project" {
   }
 
   provisioner "local-exec" {
-    command = "gcloud config set project ${google_project.gcp-project.project_id}"
+    command = "gcloud config set project ${google_project.team3-gcp-project.project_id}"
   }
 }
 

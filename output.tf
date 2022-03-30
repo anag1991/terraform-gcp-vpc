@@ -1,9 +1,9 @@
 output "project_name" {
-  value = google_project.gcp-project.name
+  value = google_project.team3-gcp-project.name
 }
 
 output "project_id" {
-  value = google_project.gcp-project.project_id
+  value = google_project.team3-gcp-project.project_id
 #   sensitive = false
 }
 
