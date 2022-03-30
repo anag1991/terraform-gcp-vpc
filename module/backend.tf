@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
     bucket = "terraform-project-team3"
-    prefix = "terraform/state/vpc"
+    prefix = "terraform/state/globalvpc"
   }
 }
