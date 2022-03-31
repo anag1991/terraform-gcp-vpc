@@ -94,7 +94,7 @@ The project has the following folders:
 | /backend.tf | The bucket and DB will be created manually |
 | /README.md | This file |
 
-## Initializing the Terraform
+## Initializing Terraform
 
 To install and create the resources, the following commands will be performed the initialize the the Terraform:
 
