@@ -52,13 +52,9 @@ module "vpc" {
 | Terraform | v1.1.7 |
 | Google Cloud SDK | 378.0.0 |
 
-
-
 ## Examples
 ![image](https://user-images.githubusercontent.com/92606341/160723319-1b972f58-9829-4075-a56b-74a75f6baf30.png)
 ![image](https://user-images.githubusercontent.com/92606341/160867821-c6d5f419-fd19-4ed9-a947-d7b46938b965.png)
-
-
 
 
 ## Inputs
