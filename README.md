@@ -18,8 +18,8 @@ It supports creating:
 * [Examples](#examples)
 * [Inputs](#inputs)
 * [Outputs](#outputs)
-* [File Structure](#file_structure)
-* [Initializing Terraform](#initializing_terraform)
+* [File Structure](#file-structure)
+* [Initializing Terraform](#initializing-terraform)
 
 
 ## Usage
