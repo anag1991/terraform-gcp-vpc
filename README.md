@@ -14,12 +14,13 @@ It supports creating:
 
 ## Table of Contents
 * [Usage](#general-information)
-* [Providers](#version)
+* [Providers](#providers)
 * [Screenshots](#photos)
 * [Inputs](#inputs)
 * [Outputs](#outputs)
 * [File Structure](#folders)
 * [Initializing the Terraform](#commands)
+
 
 ## Usage
 
