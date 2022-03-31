@@ -19,7 +19,7 @@ It supports creating:
 * [Inputs](#inputs)
 * [Outputs](#outputs)
 * [File Structure](#folders)
-* [Initilazing the Terraform](#commands)
+* [Initializing the Terraform](#commands)
 
 ## Usage
 
@@ -96,7 +96,7 @@ The project has the following folders:
 | /backend.tf | The bucket and DB will be created manually |
 | /README.md | This file |
 
-## Initilazing the Terraform
+## Initializing the Terraform
 To install and create the resources, the following commands will be performed the initialize the the Terraform:
 
 | The command | Description |
