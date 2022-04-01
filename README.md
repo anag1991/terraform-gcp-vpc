@@ -47,6 +47,8 @@ module "vpc" {
 ```
 ## Providers
 
+This version of the terraform is the default version of the google cloud shell.
+
 | Name | Version |
 |----------|----------|
 | Terraform | v1.1.7 |
