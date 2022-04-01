@@ -36,11 +36,10 @@ module "vpc" {
     zone = "us-central1-c"
     firewall_name = "fw-allow-http"
     network_tags = ["webserver"]
+    labels = {
        name    = "vpc_global"
        env     = "dev"
        team    = "devops_gcp"
-   
-   routing_mode = "GLOBAL"
    
    }
 }
