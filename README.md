@@ -41,9 +41,9 @@ module "vpc" {
        env     = "dev"
        team    = "devops_gcp"
    
-   }
-}
-```
+    }
+ }
+ ```
 ## Providers
 
 This version of the terraform is the default version of the google cloud shell.
